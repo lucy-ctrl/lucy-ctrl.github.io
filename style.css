@@ -1,5 +1,5 @@
 .about-me-image{
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .wrapper{
@@ -14,16 +14,15 @@
 }
 
 .left-panel{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start:1;
-    grid-row-end: 1;
+    background-color:aliceblue;
+    float: left;
+    width: 50%;
+  
 }
 .right-panel{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start:1;
-    grid-row-end: 2;
+    background-color: pink;
+    float: right;
+
 }
 
 .about, .details{
