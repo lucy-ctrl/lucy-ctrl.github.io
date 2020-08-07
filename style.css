@@ -15,12 +15,16 @@ html,body{
     background-color:paleturquoise;
     max-width: 70%;
     display:flex;
-    
     flex-direction: row;
     height: 80%;
 }
 
-.name{
+.name, .info{
     font-family: 'Recursive', Roboto;
     font-size: 36px;
+}
+
+.about, .details{
+    font-family: 'Recursive', Roboto;
+    font-size: 20px;
 }
