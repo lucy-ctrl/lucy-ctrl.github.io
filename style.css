@@ -34,6 +34,7 @@
 }
 
 .rightcolumn{
+    font-family: 'Recursive', roboto;
     float: left;
     width: 25%;
     background-color: aliceblue;
@@ -44,4 +45,8 @@
     background-color: pink;
     padding:20px;
     margin-top: 20px;
+}
+
+.leftcolumn{
+    font-family: 'Recursive', roboto;
 }
