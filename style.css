@@ -13,6 +13,7 @@
 
 /* This styles the links themselves */
 .topnavigation a{
+    font-family: 'Recursive', roboto;
     float: right;
     display: block;
     color: black;
