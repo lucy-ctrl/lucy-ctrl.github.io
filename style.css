@@ -14,7 +14,7 @@
 /* This styles the links themselves */
 .topnavigation a{
     font-family: 'Recursive', roboto;
-    float: right;
+    float: left;
     display: block;
     color: black;
     text-align: center;
@@ -26,4 +26,22 @@
 .topnavigation a:hover{
     background-color: hotpink;
     color: white;
+}
+
+.leftcolumn{
+    float:left;
+    width:75%;
+}
+
+.rightcolumn{
+    float: left;
+    width: 25%;
+    background-color: aliceblue;
+    padding-left: 20px;
+}
+
+.card{
+    background-color: pink;
+    padding:20px;
+    margin-top: 20px;
 }
