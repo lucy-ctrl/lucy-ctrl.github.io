@@ -1,31 +1,5 @@
-.about-me-image{
-    border-radius: 20%;
-}
-
-.wrapper{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 500px;
-}
-
-.name, .info{
-    font-family: 'Recursive', Roboto;
-    font-size: 36px;
-}
-
-.left-panel{
-    background-color:aliceblue;
-    float: left;
-    width: 50%;
-  
-}
-.right-panel{
-    background-color: pink;
-    float: right;
-
-}
-
-.about, .details{
-    font-family: 'Recursive', Roboto;
-    font-size: 20px;
+.header{
+    padding:30px;
+    text-align:center;
+    background: aliceblue;
 }
