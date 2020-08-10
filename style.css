@@ -44,7 +44,7 @@ body{
 
 .rightcolumn{
     font-family: 'Recursive', roboto;
-    float: left;
+    float: right;
     width: 25%;
     background-color: aliceblue;
     padding-left: 20px;
@@ -62,3 +62,23 @@ body{
     clear:both;
 }
 
+.footer{
+    padding:20px;
+    text-align:center;
+    background:white;
+    margin-top:20px;
+}
+
+@media screen and (max-width:800px){
+    .leftcolumn, .rightcolumn{
+        width: 100%;
+        padding:0;
+    }
+}
+
+@media screen and (max-width:400px){
+    .topnav a {
+        float:none;
+        width:100%;
+    }
+}
